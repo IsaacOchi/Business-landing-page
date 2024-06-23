@@ -38,7 +38,13 @@
 }
 
 .button {
-    color: #3882F6;
+    text-decoration: none;
+    font-weight: 400;
+    color: #F9FAF8;
+    background-color: #3882f6;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 7px 25px;
 }
 
 .hero-right  {
@@ -59,8 +65,6 @@
 .hero-left p {
     font-size: 18px;
     color: #F9FAF8;
-    display: flex;
-    align-self: flex-start;
 }
 
 h1 {
@@ -68,6 +72,104 @@ h1 {
     font-weight: bolder;
     color: #F9FAF8;
 }
+
+.info {
+    background-color: #fff;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    color: #1F2937;
+}
+
+.containers {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid blue;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+}
+
+.quote {
+   background-color: #E5E7EB; 
+   height: 350px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.quote p {
+    width: 800px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    font-weight: bolder;
+    margin-top: 150px;
+}
+
+.call-to-action {
+    background-color: #fff;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-container {
+    background-color: #3882f6;
+    width: 900px;
+    height: 120px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-text {
+    width: 500px;
+    margin-right: 60px;
+}
+
+h3 {
+    color: #F9FAF8;
+    font-size: 20px;
+}
+
+.action-text p {
+    color: #F9FAF8;
+    font-size: 15px;
+}
+
+.cta-button {
+    text-decoration: none;
+    font-weight: 400;
+    color: #F9FAF8;
+    background-color: #3882f6;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 7px 25px;
+  }
 
 footer {
     background: #1F2937;
