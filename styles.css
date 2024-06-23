@@ -1,0 +1,21 @@
+.header {
+    background: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}    
+
+.header a {
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.logo, .header-right{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
